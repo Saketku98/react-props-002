@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0b0b0b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+.main {
+  background-color: #0d0d0c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  height: 70vh;
+  width: 55vw;
+}
+.left {
+  height: 90%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.upper {
+  display: inline-flex;
+  height: 42%;
+  width: 110%;
+}
+.sub-left .sub-left {
+  height: 140px;
+  width: 120px;
+  padding:10px;
+}
+.sub-right {
+  height: 30%;
+  width: 90%;
+  padding: 5px;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.lower {
+  align-items: center;
+}
+
+.right .movie-banner {
+  height: 100%;
+  width: 130%;
+  border-radius: 0 10px 10px 0;
+}
